@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Basic Survey</title>
+        <meta name="viewport" content="width-device-width, initial-scaled=1, user-scalable=no"/>
+        <link rel="stylesheet" type="text/css" href="survey.css"/>
+    </head>
+<body>
+    <div class="heading">
+        <h1 id="head">Guest Survey</h1>
+        <h2 id="subheading">Thank you for taking the time to complete this survey</h2>
+    </div>
+    <form>
+        <div id="content">
+            <label>Name</label><br><br>
+            <input type="text" text = "name" placeholder="Enter your name" class="box"><br><br>
+            
+            <label>Age</label><br><br>
+            <input type="text" text = "age" placeholder="Enter your age" class="box"><br><br>
+
+            <label>Email</label><br><br>
+            <input type="text" text = "email" placeholder="Enter your email" class="box"><br><br>
+            
+            <label id="head2">What is your favorite drink?(Select all that apply)</label><br><br>
+            <div id="content2">
+                <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspTea</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspCoffee</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspJuice</label><br><br>
+                <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspSoda</label><br><br>
+            </div>
+            <br><label id="head1">What is your favorite season? </label><br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspFall<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspWinter<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspSpring<br><br>
+            <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspSummer<br><br>
+  
+        <label>Where are you located?</style></label><br><br>       
+        <div id="option1">
+            <select>
+                <option value="North">North</option>
+                <option value="South">South</option>
+                <option value="East coast">East</option>
+                <option value="West coast">West</option>
+                <option value="Midwest">Midwest</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        </div>
+        <br>  
+    </form>
+    <button id="button"><h3>Submit</h3></button>
+</body>
+</html>
